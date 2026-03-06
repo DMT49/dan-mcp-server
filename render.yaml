@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: dan-mcp-server
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: API_KEY
+        value: sk-dan-mcp-9Kx2pL7mQvRn4bE8
+      - key: PORT
+        value: 3000
