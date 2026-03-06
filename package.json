@@ -1,7 +1,7 @@
 {
   "name": "dan-mcp-server",
   "version": "1.0.0",
-  "description": "Dan's personal MCP server for Relevance AI agents",
+  "description": "HTTP/SSE proxy that wraps the Relevance AI MCP server for use in agents",
   "type": "module",
   "main": "server.js",
   "scripts": {
@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.11.0",
+    "@relevanceai/relevanceai-mcp-server": "latest",
     "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "node-fetch": "^3.3.2"
+    "express": "^4.18.2"
   }
 }

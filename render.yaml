@@ -8,5 +8,11 @@ services:
     envVars:
       - key: API_KEY
         value: sk-dan-mcp-9Kx2pL7mQvRn4bE8
+      - key: RELEVANCE_AUTH_TOKEN
+        value: c5bf489c1af9-4886-afba-073965a5ad71:sk-NDkzNzVkZGYtOWEzMC00YWYzLWE5MTYtODk0OTg2OTNkZmEw
+      - key: RELEVANCE_REGION
+        value: bcbe5a
+      - key: RELEVANCE_TOOLS
+        value: 28449b9a-f50d-432c-aef2-201695609bf8,d6fde3a1-563c-4b62-87fb-dbf752000dfa,b1d558a2-c4b8-4f83-9bb6-2afed259ca82,623522f4-778a-4ad4-9dc4-6eb021be60e8,c9ba0169-c4f5-4d28-8c2b-f860b9b2823b,fe3de39c-9f01-4775-a331-ca4bb7ce9757,7aea5f21-bfe6-4faf-8c25-e3cac48b6435,5bc960a3-3314-40de-b325-43bd511ba817
       - key: PORT
         value: 3000
